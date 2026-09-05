@@ -7,6 +7,7 @@ const { Given, When, Then } = createBdd(test);
 Given('I navigate to {string}', async ({ logInPage }, url) => {
   await logInPage.navigateToURL(url);
   console.log('This is github page branch report');
+  console.log('This is github page branch reportsss');
   console.log('This is github page branch report');
 });
 

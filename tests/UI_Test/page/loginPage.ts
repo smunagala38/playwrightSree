@@ -17,6 +17,7 @@ export class LoginPage extends BasePage {
 
   async navigateToURL(url: string) {
     await this.page.goto(url);
+    // await this.page.pause();
   }
 
   async clickMYAccount() {
